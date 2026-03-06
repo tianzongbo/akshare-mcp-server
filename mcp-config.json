@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "akshare-finance": {
+      "command": "/ABSOLUTE/PATH/TO/.venv/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/akshare_mcp_server/server.py"
+      ]
+    }
+  }
+}

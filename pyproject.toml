@@ -1,0 +1,18 @@
+[project]
+name = "akshare-mcp-server"
+version = "0.1.0"
+description = "Local MCP server exposing AkShare finance tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "akshare>=1.18.35",
+  "mcp>=1.26.0",
+  "pandas>=3.0.0",
+]
+
+[project.scripts]
+akshare-mcp-server = "server:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
